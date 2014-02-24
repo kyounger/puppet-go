@@ -13,7 +13,7 @@ describe "go" do
 
     should contain_repository("/test/boxen/chgo").with({
       :ensure => "v0.1.0",
-      :source => "wfarr/chgo",
+      :source => "kyounger/chgo",
       :user   => "testuser"
     })
   end
